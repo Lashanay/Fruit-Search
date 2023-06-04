@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(248, 211, 4), #f5861e );
+}
+
+
+form {
+    width: 175px;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+
+}
+
+input [ type="text"]{
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(172, 167, 167);
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 0 0 5px 5px;
+}
+
+.list-item {
+padding: 15px 5px;
+}
+
+.list-items:hover {
+    background-color: rgb(163, 159, 159);
+}
